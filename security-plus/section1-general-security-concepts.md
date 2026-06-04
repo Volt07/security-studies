@@ -21,11 +21,12 @@
 
 
 ### Notes
-| Control Types | Preventative | Deterrant | Detective | Corretive | Compensating | Directive |
-| Technical | Firewall | Splash Screen | System Logs | Back-Ups | Firewall until Patch | Ask to store as Encrypted |
-| Managerial | Security Policy | Demotion | Review Log-in Reports | Security Alert | Sepereate Duties | Complience Policy |
-| Operational | Guard Shack | Reception Desk | Property Patrol | Law - Enforcement | Policy Training |
-| Physical | Locks | Warning Signs | Motion Sensors | Fire Extingusher | Back-up Generators | Authorized Only Signs |
+| Control Types | Preventative | Deterrent | Detective | Corrective | Compensating | Directive |
+|---|---|---|---|---|---|---|
+| **Technical** | Firewall | Splash Screen | System Logs | Back-Ups | Firewall until Patch | Ask to store as Encrypted |
+| **Managerial** | Security Policy | Demotion | Review Log-in Reports | Security Alert | Separate Duties | Compliance Policy |
+| **Operational** | Guard Shack | Reception Desk | Property Patrol | Law Enforcement | Policy Training | |
+| **Physical** | Locks | Warning Signs | Motion Sensors | Fire Extinguisher | Back-up Generators | Authoriz
 
 ### Weak Areas / Review Later
 - Make flashcards for diffrent controll senerios
