@@ -1,6 +1,7 @@
 # Section 1 — General Security Concepts
 **Exam weight: 12%**
 
+*claude used to refine notes*
 ---
 
 ## 1.1 Security Controls
