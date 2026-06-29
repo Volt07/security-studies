@@ -5,7 +5,7 @@
 - Max questions: 90
 - Time: 90 minutes
 - Pass mark: 750/900
-- Target date: July 2026
+- Target date: August 2026
 
 ## Domains & Exam Weights
 | Domain | Weight |
