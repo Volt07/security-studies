@@ -1,4 +1,4 @@
-# Section 2 — Threats, Vulnerabilities, and Mitigations
+aa# Section 2 — Threats, Vulnerabilities, and Mitigations
 **Exam weight: 22%**
 
 ---
@@ -7,11 +7,19 @@
 **Video length: 10:23**
 
 ### Key Concepts
--
+- Threat Actor - The cause of an event, the malicious actor
 
 ### Notes
--
-
+- A threat actor could be external, but also internal at a company, some are more sophisiticated than others
+- Motivation could be information, disruption, money, ideology
+| Threat Actor | Location | Resources | Sophistication | Possible Motivations |
+|---|---|---|---|---|
+| Nation state | External | Extensive | Very high | Data exfiltration, philosophical, revenge, disruption, war |
+| Unskilled | External | Limited | Very low | Disruption, data exfiltration, philosophical beliefs |
+| Hacktivist | External | Some funding | Can be high | Philosophical beliefs, revenge, disruption/chaos |
+| Insider threat | Internal | Many resources | Medium | Revenge, financial gain |
+| Organized crime | External | Often extensive | Very high | Financial |
+| Shadow IT | Internal | Many resources | Limited | Philosophical beliefs, revenge |
 ---
 
 ## 2.2 Threat Vectors and Attack Surfaces
@@ -22,10 +30,20 @@
 **Video length: 17:14**
 
 ### Key Concepts
--
+- Threat Vetor - The method that an attacker uses to gain entry / acces to information, resorse, or location
 
 ### Notes
--
+- Message based through email address -> link malware and phishing, SMS for links
+- Phishing attacks, uses social egenering to gain info or money, malware can be embeded in websites through them running a script
+- Also Image beased, for instant where the SVG format contains an .xml file which allows more info to be attached, injects/javascript
+- File threat vectors, Executables are the easy ones but PDFs can contain scripting, ZIP/RAR compressed might also contain threats, Microsoft Office and macros. 
+- Voice vectors, through calling, think voice cloning which is only more reliant in the age of AI, Spam over IP allows for lage scale calling
+- Removable device vectors, USB drives which can be plugged in can contain malware, it can also act as a keybaord, running a script or macro
+- Unsupported End of Life (EOL) vectors, no security patches on end of life software can create a risk of a vulnerabity is found
+- Unsecure Network Vectors, wirelesss networks must use security protocols, proper authentication
+- Open Service Ports, netowrk services connect over TCP/UDP ports, every port is an opportunity for attackers, every app = new open port = less security, firewall in/out rules can help a lot
+- Defualt credentials must be change, (i.e. admin, password on a router)
+- Supply chain vectors, say someone installs malware on a switch while it's being transported
 
 ---
 
@@ -33,10 +51,13 @@
 **Video length: 6:32**
 
 ### Key Concepts
--
+- Phishing - Social engeneering with spoofing, (email, text, etc)
+- Pretexting - A made up story to make a phishing attack belivable
 
 ### Notes
--
+- Very often delivered through email and text, ofen through links
+- Typosquating are mistypes in links (go0gle.com/login)
+
 
 ---
 
@@ -44,21 +65,25 @@
 **Video length: 5:52**
 
 ### Key Concepts
--
+- Impersonation - A type fo pretext where an attacker pretends to be someone they're not
 
 ### Notes
--
+- Goals of impersonation are often to get information that the attacker didn't prior have access to (SSN, Banking, Credit)
+- Identiy fraud is a major part of impersonation, someone pretends to be you can be used to 
+    - Open a credit card in your name, open a bank account -> loan fraud
+    - Dont give away any personal information, always verify someone if unsure
 
 ---
-
+                                                                                                      
 ### Watering Hole Attacks
 **Video length: 4:12**
 
 ### Key Concepts
--
+
 
 ### Notes
--
+- A watering hole attack is when instead of goning for the main target, the attacker will go for a 3rd party company, in hopes the target accesses it.
+- To try to prevent this you're security strategy should have multiple layers of defense (defense in depth)
 
 ---
 
@@ -66,10 +91,10 @@
 **Video length: 3:29**
 
 ### Key Concepts
--
+- Misinformation / Disinformation - fake or made up information used to persuade, distract, or create conflict
 
 ### Notes
--
+- Brand name impersonations can be used to make users think a brand said or did something when in reality it was an attacker trying to use the name or logo
 
 ---
 
