@@ -1,4 +1,4 @@
-# Cybersecurity Studies
+# Cybersecurity Studies 🔒
 
 Documentation of certifications, labs, and hands-on work completed.
 
