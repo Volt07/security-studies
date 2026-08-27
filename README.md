@@ -3,7 +3,7 @@
 Documentation of certifications, labs, and hands-on work completed Summer 2026.
 
 ## Certifications
-- [ ] CompTIA Security+ (SY0-701) — target: August 2026
+- [ ] CompTIA Security+ (SY0-701) — target: December 2026
 
 ## Contents
 - [Security+](./security-plus/)
